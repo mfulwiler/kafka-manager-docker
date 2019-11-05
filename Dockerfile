@@ -8,7 +8,7 @@ RUN yum update -y && \
 
 ENV JAVA_HOME=/usr/java/default/ \
     ZK_HOSTS=localhost:2181 \
-    KM_VERSION=1.3.1.8 \
+    KM_VERSION=2.0.0.2 \
     KM_REVISION=97329cc8bf462723232ee73dc6702c064b5908eb \
     KM_CONFIGFILE="conf/application.conf"
 
